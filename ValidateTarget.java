@@ -1,5 +1,6 @@
-//Assumes NetworkTable initialized as variable before as ntInst(replace var names if already initialized other things, if new project need to initialize Limelgiht with:
-//
+//Assumes NetworkTable initialized as variable before as ntInst(replace var names if already initialized other things). If false positives, add logic for validating aspect ratios.
+// notes for limelight calibration:
+// Low Exposure, Edit BlackLevelOffset for light pollution, Use Eyedropper for Thresholding, Highest Sort, Tri mode for target capturing (experiment w smart, need to change code), Area > 0.005 (Experiment, May not need at all), Smart Speckle on, Fullness 100, W/H Ratio > 0.75, dont touch anything unless necessary when experimenting)
 
 import static Constants.AllianceIsRed; // If alliance is red, long ring should be on top
 
