@@ -14,9 +14,9 @@ public static boolean ValidateLimelightBucketContours(){
   NetworkTableEntry ty = LimelightTable.getEntry("ty");
   NetworkTableEntry ta = LimelightTable.getEntry("ta");
 
-  double[] xArray = tx.getDoubleArray(new double[]{});
-  double[] yArray = ty.getDoubleArray(new double[]{});
-  double[] areaArray = ta.getDoubleArray(new double[]{});
+  double[] xArray = tx.getDoubleArray(new double[3]);
+  double[] yArray = ty.getDoubleArray(new double[3]);
+  double[] areaArray = ta.getDoubleArray(new double[3]);
 
   
   // Simple logic, sort by area and check orientation, rest should be done by limelight
