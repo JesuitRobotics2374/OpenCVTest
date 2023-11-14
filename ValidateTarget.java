@@ -33,9 +33,9 @@ public static boolean ValidateLimelightBucketContours(){
   }
 
 
-  if (AllianceIsRed && y[longRectangleIndex] < y[(longRectangleIndex + 1) % 3] && y[longRectangleIndex] < y[(longRectangleIndex + 2) % 3]) {
+  if (AllianceIsRed && yArray[longRectangleIndex] < yArray[(longRectangleIndex + 1) % 3] && yArray[longRectangleIndex] < yArray[(longRectangleIndex + 2) % 3]) {
       return true;
-  } else if (!AllianceIsRed && y[longRectangleIndex] > y[(longRectangleIndex + 1) % 3] && y[longRectangleIndex] > y[(longRectangleIndex + 2) % 3]) {
+  } else if (!AllianceIsRed && yArray[longRectangleIndex] > yArray[(longRectangleIndex + 1) % 3] && yArray[longRectangleIndex] > yArray[(longRectangleIndex + 2) % 3]) {
       return true;
   }
 
