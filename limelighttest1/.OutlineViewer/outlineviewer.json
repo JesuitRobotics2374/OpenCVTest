@@ -1,0 +1,96 @@
+{
+  "$pub$": {
+    "FMSInfo": {
+      "open": true
+    },
+    "LiveWindow": {
+      "open": true
+    },
+    "Shuffleboard": {
+      "open": true
+    },
+    "open": true
+  },
+  "$sub$": {
+    "open": true
+  },
+  "Clients": {
+    "open": true
+  },
+  "FMSInfo": {
+    "open": true
+  },
+  "LiveWindow": {
+    ".status": {
+      "open": true
+    },
+    "open": true
+  },
+  "NetworkTables Settings": {
+    "listenAddress": "10.23.74.1",
+    "mode": "Client (NT4)",
+    "serverTeam": "2374"
+  },
+  "Persistent Values": {
+    "open": false
+  },
+  "Retained Values": {
+    "open": false
+  },
+  "Server": {
+    "Publishers": {
+      "open": true
+    },
+    "Subscribers": {
+      "open": true
+    },
+    "open": true
+  },
+  "Shuffleboard": {
+    ".recording": {
+      "open": true
+    },
+    "Driver Readout": {
+      "open": true
+    },
+    "open": true
+  },
+  "combined": true,
+  "outlineviewer": {
+    "open": true
+  },
+  "outlineviewer@1": {
+    "open": true
+  },
+  "retained": {
+    "$pub$": {
+      "LiveWindow": {
+        "open": true
+      },
+      "Shuffleboard": {
+        "open": true
+      },
+      "open": true
+    }
+  },
+  "shuffleboard": {
+    "Subscribers": {
+      "open": true
+    },
+    "open": true
+  },
+  "special": true,
+  "transitory": {
+    "FMSInfo": {
+      "open": true
+    },
+    "LiveWindow": {
+      "open": true
+    },
+    "Shuffleboard": {
+      "Driver Readout": {
+        "open": true
+      }
+    }
+  }
+}
